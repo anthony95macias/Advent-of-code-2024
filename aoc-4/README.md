@@ -1,7 +1,8 @@
 # Day 4: Ceres Search
 
-**Problem Description:**  
-The task is to analyze a word search puzzle to determine how many times the word **XMAS** appears. The word can appear in any of the following directions:
+**Problem Description:**\
+The task is to analyze a word search puzzle to determine how many times the word
+**XMAS** appears. The word can appear in any of the following directions:
 
 - **Horizontal** (left-to-right and right-to-left)
 - **Vertical** (top-to-bottom and bottom-to-top)
@@ -26,7 +27,9 @@ MXMXAXMASX
 ```
 
 ### Example Explanation:
-In the provided example, **XMAS** occurs **18 times**. Here’s the same puzzle with irrelevant characters replaced by `.` for clarity:
+
+In the provided example, **XMAS** occurs **18 times**. Here’s the same puzzle
+with irrelevant characters replaced by `.` for clarity:
 
 ```
 ....XXMAS.
@@ -42,20 +45,22 @@ S.S.S.S.SS
 ```
 
 ### Problem Link:
+
 [https://adventofcode.com/2024/day/4](https://adventofcode.com/2024/day/4)
 
-**Input:**  
-The input is a square grid of characters. Each row of the grid is a string, and all rows have the same length.
+**Input:**\
+The input is a square grid of characters. Each row of the grid is a string, and
+all rows have the same length.
 
-**Output:**  
+**Output:**\
 The output should be the total number of occurrences of **XMAS** in the grid.
 
 **File Execution:** This file is using `pnpm watch` with Deno and `main.ts`.
 
-**Solution:**  
-The solution will scan the grid in all possible directions for the word **XMAS**, considering overlapping patterns.
+**Solution:**\
+The solution will scan the grid in all possible directions for the word
+**XMAS**, considering overlapping patterns.
 
 ```bash
 pnpm watch
 ```
-

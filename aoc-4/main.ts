@@ -1,9 +1,10 @@
-import * as o from 'https://deno.land/x/cowsay/mod.ts'
+import * as cowsay from "https://deno.land/x/cowsay@1.1/mod.ts";
+
 const input = await Deno.readTextFile("data.txt");
 
 // console.log(input)
 
-let cowsay = o.say({
-  text: `The total length of the input is: ${input.length}`
-})
-console.log(cowsay)
+const answer = cowsay.say({
+  text: `The total length of the input is: ${input.length}`,
+});
+console.log(answer);

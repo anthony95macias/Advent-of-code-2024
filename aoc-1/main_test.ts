@@ -4,7 +4,7 @@ Deno.test("test main logic with valid data", async () => {
   // Mock file system
   const mockData = "1 10\n2 20\n3 30\n";
   const mockFileName = "mock_data.txt";
-  
+
   // Write mock data to file
   await Deno.writeTextFile(mockFileName, mockData);
 
@@ -92,4 +92,3 @@ Deno.test("test main logic with invalid data", async () => {
 
   await Deno.remove(mockFileName);
 });
-
