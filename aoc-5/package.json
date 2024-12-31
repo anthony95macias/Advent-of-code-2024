@@ -1,0 +1,16 @@
+{
+  "name": "aoc-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "deno run --allow-read main.ts",
+    "watch": "deno run --allow-read --watch main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
+}
